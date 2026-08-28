@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Algoritmos en la realidad</title>
+</head>
+
+<body background="https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png">
+
+<center>
+
+<br><br>
+
+<!-- TABLA PRINCIPAL (CUADRO BLANCO CENTRADO) -->
+<table border="1" width="80%" bgcolor="white" cellpadding="10">
+
+<!-- MENU -->
+<tr bgcolor="#c8e6c9">
+    <td>
+        <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" width="60">
+    </td>
+    <td><a href="#conceptos">Conceptos</a></td>
+    <td><a href="#videos">Videos</a></td>
+    <td><a href="#login">Inicio de Sesion</a></td>
+</tr>
+
+<!-- TITULO -->
+<tr bgcolor="#a5d6a7">
+    <td colspan="4">
+        <center>
+        <font size="6"><b>ALGORITMOS EN LA REALIDAD</b></font><br>
+        <font size="4">IE JOSE ROBERTO</font>
+        </center>
+    </td>
+</tr>
+
+<!-- CONTENIDO -->
+<tr>
+    <td colspan="2" bgcolor="#f5f5f5">
+        <center>
+        <font size="5"><b>Video sobre algoritmos</b></font><br><br>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/OCSbzArwB10"></iframe>
+        </center>
+    </td>
+
+    <td bgcolor="#f5f5f5">
+        <center>
+        <font size="5"><b>Ajedrez</b></font><br><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Chess_board_opening_staunton.jpg" width="200">
+        </center>
+    </td>
+
+    <td bgcolor="#f5f5f5">
+        <center>
+        <font size="5"><b>¿Qué es un algoritmo?</b></font><br><br>
+        Un algoritmo es una serie de pasos ordenados para resolver un problema.
+        </center>
+    </td>
+</tr>
+
+<!-- CONCEPTOS -->
+<tr id="conceptos">
+    <td colspan="2">
+        <center>
+        <font size="5"><b>Explicación sencilla</b></font><br><br>
+        Los algoritmos son instrucciones que usamos todos los días, como seguir pasos para hacer algo.
+        </center>
+    </td>
+
+    <td>
+        <center>
+        <font size="5"><b>Variables</b></font><br><br>
+        Una variable guarda datos que pueden cambiar.<br><br>
+
+        <font face="Courier New">
+        numero <- 5
+        </font>
+        </center>
+    </td>
+
+    <td>
+        <center>
+        <font size="5"><b>Diagrama de flujo</b></font><br><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Flowchart_example.png" width="180">
+        </center>
+    </td>
+</tr>
+
+<!-- EJEMPLOS -->
+<tr bgcolor="#e8f5e9">
+    <td colspan="4">
+        <center>
+        <font size="5"><b>Sentencias SI - ENTONCES</b></font><br><br>
+
+        <font face="Courier New">
+        Si numero > 0 Entonces<br>
+        Es positivo
+        </font>
+
+        <br><br>
+
+        <font size="5"><b>Ejemplo</b></font><br><br>
+
+        Preparar café:
+        <ol>
+            <li>Hervir agua</li>
+            <li>Agregar café</li>
+            <li>Servir</li>
+        </ol>
+
+        En ajedrez: decidir una jugada según el rival.
+        </center>
+    </td>
+</tr>
+
+<!-- VIDEOS -->
+<tr id="videos">
+    <td colspan="4">
+        <center>
+        <font size="5"><b>Video de ajedrez</b></font><br><br>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/NAIQyoPcjNM"></iframe>
+        </center>
+    </td>
+</tr>
+
+<!-- LOGIN -->
+<tr id="login" bgcolor="#f1f8e9">
+    <td colspan="4">
+        <center>
+        <font size="5"><b>Inicio de Sesion</b></font><br><br>
+        Pronto ingresaremos al sistema
+        </center>
+    </td>
+</tr>
+
+<!-- FOOTER -->
+<tr bgcolor="#c8e6c9">
+    <td><center>Facebook</center></td>
+    <td><center>Instagram</center></td>
+    <td><center>WhatsApp: 3001234567</center></td>
+    <td><center>Correo: ejemplo@gmail.com</center></td>
+</tr>
+
+</table>
+
+<br><br>
+
+</center>
+
+</body>
+</html>
