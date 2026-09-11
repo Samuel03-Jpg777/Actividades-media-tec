@@ -1,0 +1,90 @@
+
+
+body {
+  font-family: Magra;
+  color: #333;
+  margin: 1;
+  padding: 1;
+
+    background-image: url('../IMG/segafondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 1305px;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  text-decoration: none;
+  color: #219cd4;
+  font-weight: bold;
+
+  .nav-menu ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+  }
+}
+
+.nav-menu ul li {
+    margin-right: 15px;
+
+}
+
+.logo {
+    margin-right: 200px; 
+    
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100%;
+    height: auto;   
+    border-radius: 10px;
+  }
+
+  #precio {color:blue;}
+
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin-top: 20px;
+
+  #pie {color:blue;}
+
+}
