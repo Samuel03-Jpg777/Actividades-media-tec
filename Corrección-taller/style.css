@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== CABECERA ===== */
+.cabecera {
+  background-color: #7a4a2b;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+div.logo img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-self: center;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+  vertical-align: 100px;
+  align-items: end;
+}
+
+.menu-nav ul {
+  display: flex;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu-nav li {
+  margin: 0 20px;
+}
+
+.menu-nav a {
+  color: #f4e8d8;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background-color: #f4e8d8;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* ===== PRODUCTOS ===== */
+.productos {
+  padding: 40px;
+}
+
+div.lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productos h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.lista-productos {
+  text-align: center;
+}
+
+.producto-card {
+  width: 300px;
+  height: 325px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 0 20px 30px;
+  text-align: right;
+  vertical-align: center;
+}
+
+.producto-card img {
+  width: 250px;
+  border-radius: 10px;
+  height: 250px;
+  display: flex;
+  justify-self: center;
+}
+
+.producto-card h3 {
+  margin-right: 10px;
+  text-align: center;
+}
+  
+.etiqueta-oferta {
+  position: relative;
+  top: 15px;
+  right: 15px;
+  background-color: #d9534f;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* ===== NOSOTROS ===== */
+.nosotros {
+  background-color: #fafafa;
+  padding: 40px;
+  text-align: center;
+}
+
+/* ===== PIE ===== */
+.pie {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
