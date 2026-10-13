@@ -1,37 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tiendas de Videojuegos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
- <body align="center" background="fondo.jpg" style="background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;">
-    <header>
-    <h1><span style="color: rgba(0, 255, 179, 0.808);">Tiendas de Videojuegos</span></h1>
-    <p><span style="color: rgba(0, 255, 179, 0.808);">Esta página te brindará información sobre las tiendas de videojuegos más importantes del mundo.</span></p>
-</header>
-<aside class="sidebar" id="sidebar-1" style="background-color: lightgray; padding: 20px;" title="Información adicional">
-      <h3>Artículos relacionados</h3>
-      <ul>
-        <li><a href="#">Steam</a></li>
-        <li><a href="#">Artículo 2</a></li>
-        <li><a href="#">Artículo 3</a></li>
-      </ul>
+<body>
+
+    <header class="encabezado">
+        <h1 class="titulo">Tiendas de Videojuegos</h1>
+        <p class="subtitulo">Esta página te brindará información sobre las tiendas de videojuegos más importantes del mundo.</p>
+    </header>
+
+    <aside class="sidebar" id="sidebar-1" title="Información adicional">
+        <h3>Artículos relacionados</h3>
+        <ul>
+            <li><a href="#steam">Steam</a></li>
+            <li><a href="#epic-games">Epic Games</a></li>
+            <li><a href="#gog">GOG</a></li>
+        </ul>
     </aside>
+
     <hr>
-<main>
-        <section>
-            <h1><span style="color: rgba(0, 255, 179, 0.808);">Steam</span></h1>
-            <img src="steampe.webp" alt="Steam Logo" width="250" height="250">
-            <br>
-            <br>
-            <br>
-            <table border="1" bgcolor="lightgray" align="center">
-                <colgroup>
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                </colgroup>
+
+    <main>
+        <section class="tienda" id="steam">
+            <h2 class="titulo">Steam</h2>
+            <img class="logo" src="../IMG/steampe.webp" alt="Steam Logo" width="250" height="250">
+            <table class="tabla">
                 <thead>
                     <tr>
                         <th>Tienda</th>
@@ -53,20 +50,13 @@
                 </tfoot>
             </table>
         </section>
-<hr>
-        <section>
-            <h1><span style="color: rgba(0, 255, 179, 0.808);">Epic Games</span></h1>
-            <img src="epiclogo.png" alt="Epic Games Logo" width="250" height="150">
-            <br>
-            <br>
-            <br>
-            <table border="1" bgcolor="lightgray" align="center">
-                <colgroup>
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                </colgroup>
+
+        <hr>
+
+        <section class="tienda" id="epic-games">
+            <h2 class="titulo">Epic Games</h2>
+            <img class="logo" src="../IMG/epiclogo.png" alt="Epic Games Logo" width="250" height="150">
+            <table class="tabla">
                 <thead>
                     <tr>
                         <th>Tienda</th>
@@ -88,20 +78,13 @@
                 </tfoot>
             </table>
         </section>
-<hr>
-        <section>
-            <h1><span style="color: rgba(0, 255, 179, 0.808);">GOG</span></h1>
-            <img src="goglogo.png" alt="GOG Logo" width="250" height="250">
-            <br>
-            <br>
-            <br>
-            <table border="1" bgcolor="lightgray" align="center">
-                <colgroup>
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                    <col style="width: 33%;">
-                </colgroup>
+
+        <hr>
+
+        <section class="tienda" id="gog">
+            <h2 class="titulo">GOG</h2>
+            <img class="logo" src="../IMG/goglogo.png" alt="GOG Logo" width="250" height="250">
+            <table class="tabla">
                 <thead>
                     <tr>
                         <th>Tienda</th>
@@ -123,11 +106,13 @@
                 </tfoot>
             </table>
         </section>
-</main>
-    <footer>
-    <hr>
-    <p><span style="color: rgba(137, 156, 151, 0.808);">© 2026 Mi Tienda de Videojuegos</span></p>
-    <p><span style="color: rgba(137, 156, 151, 0.808);">Todos los derechos reservados.</span></p>
+    </main>
+
+    <footer class="pie">
+        <hr>
+        <p>© 2026 Mi Tienda de Videojuegos</p>
+        <p>Todos los derechos reservados.</p>
     </footer>
+
 </body>
 </html>
