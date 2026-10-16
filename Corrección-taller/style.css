@@ -24,7 +24,6 @@ div.logo img {
 .menu-nav {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: ;
   vertical-align: 100px;
   align-items: end;
 }
